@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-blue: #00135b;
+  --color-brand-blue-dark: #000c3b;
+  --color-brand-orange: #F58120;
+  --color-brand-orange-hover: #e06c10;
+  --color-brand-navy: #063472;
+  --color-brand-bg-light: #EFF5F7;
+  --color-brand-success: #27AE60;
+  --color-brand-dark: #161d1e;
+  --color-brand-text-muted: #546E7A;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer utilities {
+  .cta-shadow {
+    box-shadow: 0px 4px 14px 0px rgba(245, 129, 32, 0.39);
+  }
+  .surface-card {
+    box-shadow: 0px 4px 20px rgba(0, 35, 143, 0.05);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #EFF5F7;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "LANDING PAGE",
+  "description": "Giải pháp tối ưu hóa Fanpage toàn diện cho doanh nghiệp SME. Tăng tỷ lệ chuyển đổi, giảm chi phí quảng cáo và xây dựng uy tín thương hiệu bền vững.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
